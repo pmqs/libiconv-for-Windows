@@ -53,5 +53,5 @@ jobs:
     - name: Archive Artefacts
       uses: actions/upload-artifact@v4
       with:
-        name: iztest-build-log-${{ matrix.BUILD_PLATFORM }}-${{ matrix.BUILD_CONFIGURATION }}
+        name: libiconv-${{ matrix.BUILD_PLATFORM }}-${{ matrix.BUILD_CONFIGURATION }}
         path: install
